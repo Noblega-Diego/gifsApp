@@ -1,0 +1,12 @@
+<div class="w-100 h-100 overflow-scroll row content">
+  <div class="col-md-4 col-sm-6 animate__animated animate__fadeInUp" *ngFor="let gift of gifs " >
+    <div class="card">
+
+      <img [src]="gift.images.downsized_medium.url" class="card-img-top">
+      <div class="card-body">
+        <p class="card-title"> {{gift.title}}</p>
+      </div>
+    </div>
+
+  </div>
+</div>

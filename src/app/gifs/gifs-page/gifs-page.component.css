@@ -1,0 +1,11 @@
+.nav-superior{
+  background: #1f1f23;
+  width: 100%;
+  height: var(--varSuperior);
+}
+
+.imagen{
+  background: slategray;
+  width: 100px;
+  height: 100px;
+}

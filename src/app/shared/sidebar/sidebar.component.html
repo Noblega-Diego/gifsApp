@@ -1,0 +1,9 @@
+<div class="left-panel">
+  <p class="h6 text-white text-center">Busquedas recientes</p>
+  <hr class="line-write">
+  <ul class="list-unstyled list-group" >
+    <li *ngFor="let busqueda of busquedasRecientes.slice(0,5)" class="list-group-item list-group-item-action item-h-50">
+      <a href="#" (click)="buscar(busqueda)" class="a-">{{busqueda | titlecase}}</a>
+    </li>
+  </ul>
+</div>
